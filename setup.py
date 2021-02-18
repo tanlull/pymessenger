@@ -13,15 +13,15 @@ except ImportError:
     installation_requirements.append('enum')
 
 setup(
-    name='pymessenger',
-    packages=['pymessenger'],
+    name='pymessenger4',
+    packages=['pymessenger4'],
     version='1.0.0',
     install_requires=installation_requirements,
     description="Python Wrapper for Facebook Messenger Platform",
-    author='David Chua',
-    author_email='zhchua@gmail.com',
-    url='https://github.com/davidchua/pymessenger',
-    download_url='https://github.com/davidchua/pymessenger/tarball/1.0.0',
+    author='Tanya S.',
+    author_email='tanlull@gmail.com',
+    url='https://github.com/tanlull/pymessenger4',
+    download_url='https://github.com/tablull/pymessenger4/tarball/1.0.0',
     keywords=['facebook messenger', 'python', 'wrapper', 'bot', 'messenger bot'],
     classifiers=[],
 )

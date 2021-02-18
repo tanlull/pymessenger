@@ -1,3 +1,8 @@
+# the original repo [pymessenger] doesn't support "get_user_info" in pip ==> we fixed this
+
+pip install pymessenger4
+
+
 # pymessenger [![Build Status](https://travis-ci.org/davidchua/pymessenger.svg?branch=master)](https://travis-ci.org/davidchua/pymessenger)
 
 Python Wrapper for [Facebook Messenger Platform](https://developers.facebook.com/docs/messenger-platform).
