@@ -1,4 +1,4 @@
-## the original repo [pymessenger] doesn't support "get_user_info" in pip ==> we fixed this
+## The original repo [pymessenger] doesn't support "get_user_info" in pip ==> we fixed this
 
 pip install pymessenger4
 
@@ -48,13 +48,13 @@ You'll need to setup a [Facebook App](https://developers.facebook.com/apps/), Fa
 ### Installation
 
 ```bash
-pip install pymessenger
+pip install pymessenger4
 ```
 
 ### Usage
 
 ```python
-from pymessenger.bot import Bot
+from pymessenger4.bot import Bot
 
 bot = Bot(<access_token>, [optional: app_secret])
 bot.send_text_message(recipient_id, message)
@@ -74,7 +74,7 @@ __Note__: From Facebook regarding User IDs
 
 
 ```python
-from pymessenger.bot import Bot
+from pymessenger4.bot import Bot
 bot = Bot(<access_token>)
 elements = []
 element = Element(title="test", image_url="<arsenal_logo.png>", subtitle="subtitle", item_url="http://arsenal.com")
@@ -90,7 +90,7 @@ Output:
 ##### Sending an image/video/file using an URL:
 
 ```python
-from pymessenger.bot import Bot
+from pymessenger4.bot import Bot
 bot = Bot(<access_token>)
 image_url = "http://url/to/image.png"
 bot.send_image_url(recipient_id, image_url)
